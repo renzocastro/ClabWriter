@@ -1,0 +1,6 @@
+[27-Aug-2012 21:43:15 UTC] PHP Fatal error:  Call to undefined method resize::getImage() in /home/renzocas/public_html/cristalab/writer/inc/upload.php on line 71
+[27-Aug-2012 21:43:15 UTC] PHP Fatal error:  Call to undefined method resize::getImage() in /home/renzocas/public_html/cristalab/writer/inc/upload.php on line 71
+[27-Aug-2012 21:46:01 UTC] PHP Fatal error:  Call to undefined method resize::getImage() in /home/renzocas/public_html/cristalab/writer/inc/upload.php on line 71
+[27-Aug-2012 21:47:36 UTC] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, null given in /home/renzocas/public_html/cristalab/writer/inc/resize-class.php on line 226
+[27-Aug-2012 21:47:36 UTC] PHP Warning:  imagepng() expects parameter 1 to be resource, null given in /home/renzocas/public_html/cristalab/writer/inc/resize-class.php on line 227
+[27-Aug-2012 21:47:36 UTC] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/renzocas/public_html/cristalab/writer/inc/resize-class.php on line 236

@@ -1,0 +1,247 @@
+html, body, #clab-writer, 
+#content-article, #clab-writer article {
+	height: 100%;
+}
+
+.logo {
+	display: none;
+}
+
+#clab-writer {
+	background-color: #fff;
+	border: 0 solid #1A5168;
+	/*border-width: 0 14px;
+	margin: 0 20px;*/
+	position: relative;
+	min-width: 840px;
+	min-height: 190px;
+}
+	#content-article {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 694px;
+	}
+		#clab-writer article {
+			margin: 0 20px;
+		}
+			.entry-title {
+				padding-top: 10px;
+			}
+			.entry-content {
+				overflow-y: auto;
+				overflow-x: hidden;
+
+				position: absolute;
+				top:50px;
+				bottom: 10px;
+				left:0;
+				right:0;
+				padding-right: 20px;
+				/*box-shadow: 0 0 3px #CAE1EB;*/
+			}
+
+
+#writer {
+	position: absolute;
+	left: 694px;
+	right:0px;
+	border-left: 1px solid #CAE1EB; /* #F4FBFF */
+	height: 100%;
+
+	
+}
+#writer,
+#markItUpBbcode {
+	background-color: #F4FBFF;
+}
+
+#writer>form,
+/*#writer>form>div:first-child,*/
+#markItUpBbcode {
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+}
+#writer>form {
+	position: relative;
+}
+
+#markItUpBbcode {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+	.markItUpContainer {
+		/*padding:5px;*/
+		/*height:20px;*/
+	}
+		#markItUpBbcode .markItUpHeader {
+			height: 22px;
+			padding-top: 6px;
+		}
+			#markItUpBbcode .markItUpHeader ul {
+				position: absolute;
+				z-index:10;
+			}
+
+		#markItUpBbcode .markItUpEditorWrap {
+			position: absolute;
+			top:70px;
+			bottom:40px;
+			left:0;
+			right:0;
+
+			border-radius: 5px;
+			border:3px solid #E6EFF0;
+		}
+			#markItUpBbcode .markItUpEditor {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				
+				-webkit-resize:none;
+				   -moz-resize:none;
+				        resize:none;
+
+				border: none;
+				border-radius: 2px;
+				
+				-webkit-box-sizing: border-box;
+				   -moz-box-sizing: border-box;
+				    -ms-box-sizing: border-box;
+				        box-sizing: border-box;
+			}
+
+
+#writer-footer {
+	position: absolute;
+	bottom: 5px;
+	right:5px;
+}
+
+.post-row {
+	position: relative;
+	margin: 5px 0;
+}
+	.post-row label {
+		line-height: 32px;
+		padding-left: 5px;
+	}
+	#post-title-wrap {
+		position: absolute;
+		top:0;
+		left: 45px;
+		right:5px;
+	}
+		#post-title {
+			width: 100%;
+			-webkit-box-sizing: border-box;
+			   -moz-box-sizing: border-box;
+			    -ms-box-sizing: border-box;
+			        box-sizing: border-box;
+		}
+
+
+.entry-content pre br{
+	display: none;
+}
+
+
+/* DIALOG IMAGE */
+
+input[type="file"] {
+	color:#5e5e5e;
+	height:30px;
+	line-height:30px;
+
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	-ms-transition:none;
+	transition:none;
+}
+
+#dialog-wrap {
+	position: absolute;
+	z-index: 100;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: #bbb;
+	background-color: rgba(0,0,0,0.3);
+
+	display: none;
+}
+#dialog-image {
+	position: absolute;
+	
+	top: 50%;
+	left: 50%;
+
+	width:400px;
+	height:210px;
+	margin-left: -200px;
+	margin-top: -105px;
+	
+	background: #F4FBFF;
+	box-shadow: 0 2px 10px #ddd;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+	#dialog-image .dialog-header {
+		background: #E9F7FF;
+	}
+		#dialog-image .dialog-header h2 {
+			margin: 0 0 0 20px;
+			line-height: 40px;
+			font-size: 1.5em;
+			font-weight: normal;
+			letter-spacing: -1px;
+			color: #20496C;
+		}
+
+	#dialog-image .dialog-content {
+		margin: 15px 20px;
+	}
+		#dialog-image label {
+			overflow: hidden;
+			display: inline-block;
+			line-height: 30px;
+			margin-right: 10px;
+		}
+			#dialog-image input[type="radio"] {
+				float: left;
+				margin: 9px 3px 0 0;
+			}
+
+		#dialog-image input[type="text"] {
+			-webkit-transition:none;
+			-moz-transition:none;
+			-o-transition:none;
+			-ms-transition:none;
+			transition:none;
+			width: 280px;
+		}
+
+
+
+button.disabled {
+	background-color:#AAA;
+	border-color:#999;
+	-webkit-text-shadow:#888;
+	text-shadow:#888;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	cursor:default;
+
+	-webkit-transition:none;
+	-moz-transition:none;
+	-o-transition:none;
+	-ms-transition:none;
+	transition:none;
+}
+button.disabled:hover {
+	-webkit-text-shadow:#888;
+	text-shadow:#888;
+}

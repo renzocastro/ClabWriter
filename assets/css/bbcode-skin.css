@@ -1,0 +1,279 @@
+
+/* -------------------------------------------------------------------
+// BBCode Editor Skin 
+// j(Universal?)TagEditor, JQuery plugin
+// By Jay Salvat - http://www.jaysalvat.com/jquery/jtageditor/
+// -------------------------------------------------------------------
+// Icons based on http://www.famfamfam.com/
+// ------------------------------------------------------------------*/
+#markItUpBbcode {
+	width:630px;
+	border:1px solid #DDDDDD;	
+	background:#FFF url(../images/babyBlue/bbcode/bg-container.png) repeat-x top left;
+	padding:5px;
+	margin-left: 5px;
+}
+#markItUpBbcode .markItUpHeader {
+	list-style:none;
+}
+#markItUpBbcode .markItUpHeader ul	{
+	margin:0px; padding:0px;
+}
+#markItUpBbcode .markItUpHeader li	{
+	float:left;
+	margin-bottom:5px;
+}
+#markItUpBbcode .markItUpHeader a	{
+	display:block;
+	width:16px; height:16px;
+	/*margin:1px 3px;*/
+	text-indent:-1000px;
+	overflow:hidden;
+}
+#markItUpBbcode .markItUpEditor {
+	font: 12px "Trebuchet MS";
+	padding:5px; margin-top:10px;
+	border:3px solid #E6EFF0;
+	width:685px;
+	height:320px;
+	background-image:url(../images/babyBlue/bbcode/bg-bbcode.png);
+	background-repeat:no-repeat;
+	clear:both; display:block;
+	line-height:18px;
+}
+#markItUpBbcode .markItUpButton a {
+	background-position: center top;
+}
+#markItUpBbcode .markItUpButton1 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/bold.png);
+}
+#markItUpBbcode .markItUpButton2 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/italic.png);
+}
+#markItUpBbcode .markItUpButton3 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/stroke.png);
+	/*margin-right:15px;*/
+}
+#markItUpBbcode .markItUpButton4 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/color.png);
+}
+	#markItUpBbcode .markItUpButton4 ul {
+		width:135px;
+		padding:1px;	
+	}
+	#markItUpBbcode .markItUpButton4  li {
+		/*border:1px solid white;*/
+		width:15px;	height:15px;
+		overflow:hidden;
+		padding:0px; margin:0px;
+		float:left;
+	}
+	#markItUpBbcode .markItUpButton4 ul a {
+		width:15px;	height:15px;
+	}
+	#markItUpBbcode .markItUpButton4 ul a:hover {
+		background-image:none;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-1 a {
+		background:#FCE94F;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-1 a {
+		background:#EDD400;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-1 a {
+		background:#C4A000;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-2 a {
+		background:#FCAF3E;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-2 a {
+		background:#F57900;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-2 a {
+		background:#CE5C00;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-3 a {
+		background:#E9B96E;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-3 a {
+		background:#C17D11;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-3 a {
+		background:#8F5902;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-4 a {
+		background:#8AE234;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-4 a {
+		background:#73D216;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-4 a {
+		background:#4E9A06;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-5 a {
+		background:#729FCF;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-5 a {
+		background:#3465A4;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-5 a {
+		background:#204A87;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-6 a {
+		background:#AD7FA8;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-6 a {
+		background:#75507B;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-6 a {
+		background:#5C3566;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-7 a {
+		background:#EF2929;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-7 a {
+		background:#CC0000;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-7 a {
+		background:#A40000;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-8 a {
+		background:#FFFFFF;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-8 a {
+		background:#D3D7CF;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-8 a {
+		background:#BABDB6;
+	}
+	
+	#markItUpBbcode .markItUpButton4 .col1-9 a {
+		background:#888A85;
+	}
+	#markItUpBbcode .markItUpButton4 .col2-9 a {
+		background:#555753;
+	}
+	#markItUpBbcode .markItUpButton4 .col3-9 a {
+		background:#000000;
+	}
+
+#markItUpBbcode .markItUpButton5 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/style.png);
+}
+#markItUpBbcode .markItUpButton5 ul li {
+	margin:0;
+	float:none;
+	text-align:center;
+}
+#markItUpBbcode .markItUpButton5 ul li a {
+	background-image:none;
+	text-decoration:none;
+	text-indent:0;
+	padding:1px 3px;
+	color:#333;
+	height:auto;
+	width:26px;
+}
+#markItUpBbcode .markItUpButton5 ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+	#markItUpBbcode .markItUpButton5 .size1 {
+		font-size:8px;
+	}
+	#markItUpBbcode .markItUpButton5 .size2 {
+		font-size:16px;
+	}
+	#markItUpBbcode .markItUpButton5 .size3 {
+		font-size:20px;
+	}
+	#markItUpBbcode .markItUpButton5 .size4 {
+		font-size:24px;
+	}
+/* - */
+
+
+#markItUpBbcode .markItUpButton6 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/link.png);
+}
+#markItUpBbcode .markItUpButton7 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/picture.png);
+}
+#markItUpBbcode .markItUpButton8 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/align-center.gif);
+}
+
+
+#markItUpBbcode .markItUpButton9 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/tags.png);
+}
+#markItUpBbcode .markItUpButton10 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/code.png);
+}
+#markItUpBbcode .markItUpButton10 ul li {
+	margin:0;
+	float:none;
+}
+#markItUpBbcode .markItUpButton10 ul li a {
+	background-image:none;
+	text-decoration:none;
+	text-indent:0;
+	padding:2px 4px;
+	color:#333;
+	height:auto;
+	width:61px;
+}
+#markItUpBbcode .markItUpButton10 ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+	#markItUpBbcode .markItUpButton10 .code {
+		font-size:11px;
+	}
+/* - */
+
+
+#markItUpBbcode .markItUpButton11 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/flash.png);
+}
+#markItUpBbcode .markItUpButton12 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/youtube.png);
+	/*margin-right:15px;*/
+}
+#markItUpBbcode .markItUpButton13 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/list-bullets.png);
+}
+#markItUpBbcode .markItUpButton14 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/list-numbers.png);
+}
+#markItUpBbcode .markItUpButton15 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/list-item.png);
+	/*margin-right:15px;*/
+}
+#markItUpBbcode .markItUpButton16 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/h2.png);
+}
+#markItUpBbcode .markItUpButton17 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/h3.png);
+}
+#markItUpBbcode .markItUpButton18 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/h4.png);
+	/*margin-right:15px;*/
+}
+#markItUpBbcode .markItUpButton19 a	{
+	background-image:url(../images/babyBlue/bbcode/icons/tags-delete.png);
+}
+#markItUpBbcode .markItUpResizeHandle {
+	width:22px; height:6px;
+	margin:5px 0 0 330px;
+	background-image:url(../images/babyBlue/bbcode/handle.png);
+	cursor:n-resize;
+}
